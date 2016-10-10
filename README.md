@@ -1,7 +1,4 @@
-# GettingAndCleaningDataProject
-Coursera Getting and Cleaning Data Project
-
-# Poject description project
+# Project description project
 The `tidyDaset.txt` file included in this repository was produced for the Coursera Course Project, "Getting and Cleaning Data". The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
 # Data set information
@@ -13,7 +10,7 @@ A full description of data collected from the accelerometers is available at the
 * Header row is included
 * Columns are white space delimited
 
-## Columns of  `tidyDaset.txt`
+## Columns of tidyDaset.txt
 Here a brief description of columns of `tidyDaset.txt`
 
 * 1st column - activityID
@@ -21,12 +18,12 @@ Here a brief description of columns of `tidyDaset.txt`
 * 3rd column - subjectID
 * 4th - 69th columns - Average of the specific mean or standard deviation of the original measurements  for each activity and each subject
 
-For a more detailed description of measurement columns see [CodeBook.md](https://github.com/crossbow/GettingAndCleaningDataProject) included in current repository.
+For a more detailed description of measurement columns see [CodeBook.md](https://github.com/crossbow/GettingAndCleaningDataProject/blob/master/CodeBook.md) included in current repository.
 
-# Original dataset
+# Original data set
 Original data set can be found at [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-# How to produce `tidyDaset.txt`
+# How to produce tidy data set
 In order to produce `tidyDataset.txt` you need [R](https://www.r-project.org/) installed on your computer. From R current working directory
 execute  the `run_analysis.R` script included in current repository. For example, from R prompt you can type:
 ```
@@ -34,7 +31,7 @@ source("run_analysis.R")
 ```  
 The script writes a file named `tidyDataset.txt` into `data` folder inside R current working directory. The script has been verified on R version 3.3.1 (2016-06-21) -- "Bug in Your Hair" - Platform: x86_64-apple-darwin13.4.0 (64-bit)
 
-# Files used to produce the dataset
+# Files used to produce tidy data set
 From the original data set, `run_analysis.R` script unzip the following files only:
 
 * "UCI HAR Dataset/activity_labels.txt"
@@ -46,9 +43,9 @@ From the original data set, `run_analysis.R` script unzip the following files on
 * "UCI HAR Dataset/test/y_test.txt"
 * "UCI HAR Dataset/test/X_test.txt"
 
-Files are stored into  a folder named `data` inside R current working directory
+Files are stored into a folder named `data` inside R current working directory
 
-# Description of `run_analysis.R`
+# Description of run_analysis.R
 `run_analysis.R` performs the following steps:
 
 1. Downloads and unzip original dataset from [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
