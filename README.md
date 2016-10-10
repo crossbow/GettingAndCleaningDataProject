@@ -1,8 +1,8 @@
-# Project description project
-The `tidyDaset.txt` file included in this repository was produced for the Coursera Course Project, "Getting and Cleaning Data". The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
+# Project description
+This repository was produced for the **Coursera Course Project, "Getting and Cleaning Data"**. The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. The required data set can be produced by running the R script included in this repository. 
 
 # Data set information
-`tidyDataset.txt` is a blended data set that contains the average mean and average standard deviation of measurements summarized by activityID and subjectID fetched from data stored into [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+The `tidyDataset.txt` produced by `run_analysis.R` is a tidy data set that contains the average mean and average standard deviation of measurements summarized by activityID and subjectID fetched from data stored into [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 A full description of data collected from the accelerometers is available at the [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
 # Data set content
