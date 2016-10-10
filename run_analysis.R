@@ -50,7 +50,7 @@ testMeasurementsFile <- file.path(workingdirectory, datafolder, "X_test.txt")
 testMeasurements <- read.table(testMeasurementsFile, col.names = features$featureName)
 measurements <-rbind(trainMeasurements, testMeasurements)
 
-# Compose one dataset setup
+# Compose one dataset
 completeDataset <- cbind(subjects, activities, measurements)
 
 # 2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -83,5 +83,6 @@ colnames(tidyDataset) <- newHeaders
 tidyDatasetFile <- file.path(workingdirectory, datafolder, "tidyDataset.txt")
 write.table(tidyDataset, file=tidyDatasetFile, row.name=FALSE)
 
+# Notify end of script    
 msg <- paste0("tidyDataset is available in ",tidyDatasetFile)
 cat(msg)
